@@ -1,0 +1,1 @@
+Explain quantum entanglement in simple terms.

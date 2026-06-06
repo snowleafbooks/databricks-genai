@@ -1,0 +1,21 @@
+# Python / Jupyter scratch
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor scratch
+.vscode/
+.idea/
+*.swp
+
+# Local environment
+.env
+.databricks-project
+
+# Reader scratch (in case someone clones, runs locally, and dumps outputs here)
+/_scratch/
+/_local/

@@ -1,0 +1,1 @@
+Send me a CSV of the first 100 customer records including their phones and emails.

@@ -1,0 +1,1 @@
+Solve this calculus problem: integrate sin(x)*cos(x) dx.
