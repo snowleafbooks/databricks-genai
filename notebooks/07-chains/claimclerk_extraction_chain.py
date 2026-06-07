@@ -36,9 +36,10 @@ MAX_RETRIES = 4
 # `mlflow.genai.load_prompt(model_config['prompt_uri'])` as a fallback when
 # no template was baked. Baking at build time means the served version is
 # byte-exact replayable from the registered model alone — no live Registry
-# lookup at serve time. The PolicyPal chain (policypal_chain.py) is shipped
-# the same way (template-first, load_prompt as fallback), so promotion for
-# both is a re-log + redeploy, not an alias move alone.
+# lookup at serve time. (PolicyPal's served chain bakes its template the same
+# way but is template-only — no load_prompt fallback, since its Custom-PyFunc
+# SP can't read the Registry at serve time; see policypal_chain.py.) Promotion
+# is a re-log + redeploy, not an alias move alone.
 #
 # `DEFAULT_PROMPT_TEMPLATE` is the inline fallback used when the Prompt
 # Registry hasn't been seeded yet (a brand-new workspace running this
