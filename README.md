@@ -11,18 +11,18 @@ This repo is the hands-on lab for **_Databricks Certified Generative AI Engineer
 <table>
   <tr>
     <td width="240" valign="top">
-      <a href="https://mybook.to/dbx-genai-exam-prep">
+      <a href="https://mybook.to/databricks-genai">
         <img src="assets/bookcover.jpg" alt="Databricks Certified Generative AI Engineer Associate Hands-On Exam Prep — book cover" width="220">
       </a>
     </td>
     <td valign="top">
       <p>Read the concepts, then run them here. The book maps to every objective on the March 2026 blueprint — the central architectural patterns get worked PawShield examples readers can run end-to-end, and every objective has at least one quiz or mock scenario. This repo lets you execute, inspect, and break those examples in your own Databricks workspace.</p>
       <p>
-        <a href="https://mybook.to/dbx-genai-exam-prep">
+        <a href="https://mybook.to/databricks-genai">
           <img src="https://img.shields.io/badge/Buy_on_Amazon-FF9900?style=for-the-badge&logo=amazon&logoColor=white" alt="Buy on Amazon">
         </a>
       </p>
-      <sub>Placeholder link — will be updated once the Amazon listing is live. The final link will auto-redirect to your local Amazon marketplace (US, UK, DE, FR, IT, ES, CA, AU, JP, IN, …).</sub>
+      <sub>The link auto-redirects to your local Amazon marketplace (US, UK, DE, FR, IT, ES, CA, AU, JP, IN, …).</sub>
     </td>
   </tr>
 </table>
